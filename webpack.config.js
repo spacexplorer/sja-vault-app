@@ -52,5 +52,6 @@ module.exports = {
         port: port, //const port
         historyApiFallback: true,
         open: true
-    }
+    },
+    //resolve: { modulesDirectories: ['node_modules', 'src'], extension: ['', '.js', '.scss'] },
 };
